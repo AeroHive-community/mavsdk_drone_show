@@ -1,8 +1,132 @@
 {
-  "error": "Failed to load drone data",
+  "basic_metrics": {
+    "drone_count": 4,
+    "duration_seconds": 41.45,
+    "duration_minutes": 0.69,
+    "max_altitude_m": 10.0,
+    "max_altitude_details": {
+      "value": 10.0,
+      "drone_id": "1",
+      "time_s": 27.1
+    },
+    "min_altitude_flight_m": 10.0,
+    "min_altitude_details": {
+      "value": 10.0,
+      "drone_id": "3",
+      "time_s": 32.2
+    },
+    "max_distance_from_launch_m": 12.32,
+    "max_distance_details": {
+      "value": 12.32,
+      "drone_id": "1",
+      "time_s": 5.4
+    },
+    "altitude_range_m": 0.0,
+    "per_drone_metrics": {
+      "3": {
+        "max_altitude_m": 10.0,
+        "max_altitude_time_s": 27.1,
+        "min_altitude_flight_m": 10.0,
+        "min_altitude_flight_time_s": 32.2,
+        "max_distance_from_launch_m": 11.78,
+        "max_distance_time_s": 4.9,
+        "duration_s": 41.45
+      },
+      "2": {
+        "max_altitude_m": 10.0,
+        "max_altitude_time_s": 27.1,
+        "min_altitude_flight_m": 10.0,
+        "min_altitude_flight_time_s": 32.2,
+        "max_distance_from_launch_m": 11.81,
+        "max_distance_time_s": 5.0,
+        "duration_s": 41.45
+      },
+      "4": {
+        "max_altitude_m": 10.0,
+        "max_altitude_time_s": 27.1,
+        "min_altitude_flight_m": 10.0,
+        "min_altitude_flight_time_s": 32.2,
+        "max_distance_from_launch_m": 11.7,
+        "max_distance_time_s": 4.9,
+        "duration_s": 41.45
+      },
+      "1": {
+        "max_altitude_m": 10.0,
+        "max_altitude_time_s": 27.1,
+        "min_altitude_flight_m": 10.0,
+        "min_altitude_flight_time_s": 32.2,
+        "max_distance_from_launch_m": 12.32,
+        "max_distance_time_s": 5.4,
+        "duration_s": 41.45
+      }
+    }
+  },
+  "safety_metrics": {
+    "min_inter_drone_distance_m": 2.89,
+    "min_distance_details": {
+      "time_s": 5.0,
+      "drone_1": "2",
+      "drone_2": "1",
+      "distance_m": 2.89
+    },
+    "collision_warnings_count": 0,
+    "collision_warnings": [],
+    "min_ground_clearance_m": -0.0,
+    "safety_status": "CAUTION"
+  },
+  "performance_metrics": {
+    "max_velocity_ms": 22.42,
+    "max_velocity_kmh": 80.71,
+    "max_velocity_details": {
+      "value": 22.42,
+      "drone_id": "4",
+      "time_s": 4.5
+    },
+    "max_acceleration_ms2": 78.83,
+    "max_acceleration_details": {
+      "value": 78.83,
+      "drone_id": "4",
+      "time_s": 4.8
+    },
+    "performance_status": "HIGH_SPEED",
+    "per_drone_velocity": {
+      "3": {
+        "max_velocity_ms": 22.4,
+        "avg_velocity_ms": 0.66,
+        "velocity_std_ms": 2.27
+      },
+      "2": {
+        "max_velocity_ms": 22.11,
+        "avg_velocity_ms": 0.67,
+        "velocity_std_ms": 2.29
+      },
+      "4": {
+        "max_velocity_ms": 22.42,
+        "avg_velocity_ms": 0.67,
+        "velocity_std_ms": 2.28
+      },
+      "1": {
+        "max_velocity_ms": 21.83,
+        "avg_velocity_ms": 0.68,
+        "velocity_std_ms": 2.28
+      }
+    }
+  },
+  "formation_metrics": {
+    "formation_complexity": "MODERATE",
+    "swarm_center_total_movement_m": 27.41
+  },
+  "quality_metrics": {
+    "trajectory_smoothness_score": 0.685,
+    "overall_quality_rating": "GOOD",
+    "quality_score": 0.685,
+    "recommendations": [
+      "Trajectory analysis completed successfully"
+    ]
+  },
   "show_info": {
     "filename": "take off and rotate.zip",
-    "uploaded_at": "2025-10-14T16:45:45.010197",
-    "processed_at": "2025-10-14T16:45:45.010207"
+    "uploaded_at": "2025-10-14T16:51:26.060523",
+    "processed_at": "2025-10-14T16:51:26.060541"
   }
 }
