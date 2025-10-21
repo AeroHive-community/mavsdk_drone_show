@@ -59,8 +59,8 @@ set -euo pipefail
 
 # GitHub Repository Details (with environment variable override support)
 DEFAULT_GIT_REMOTE="origin"
-DEFAULT_GIT_BRANCH="${MDS_BRANCH:-main-candidate}"
-GITHUB_REPO_URL="${MDS_REPO_URL:-https://github.com/alireza787b/mavsdk_drone_show.git}"
+DEFAULT_GIT_BRANCH="${MDS_BRANCH:-main}"
+GITHUB_REPO_URL="${MDS_REPO_URL:-https://github.com/AeroHive-community/mavsdk_drone_show.git}"
 
 # Option to use global Python
 USE_GLOBAL_PYTHON=false  # Set to true to use global Python instead of venv

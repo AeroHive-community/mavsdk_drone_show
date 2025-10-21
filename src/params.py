@@ -58,8 +58,8 @@ class Params:
     #   MDS_BRANCH    - Git branch name
     # ===================================================================================
     GIT_AUTO_PUSH = True
-    GIT_REPO_URL = os.environ.get('MDS_REPO_URL', 'git@github.com:alireza787b/mavsdk_drone_show.git')
-    GIT_BRANCH = os.environ.get('MDS_BRANCH', 'main-candidate')
+    GIT_REPO_URL = os.environ.get('MDS_REPO_URL', 'git@github.com:AeroHive-community/mavsdk_drone_show.git')
+    GIT_BRANCH = os.environ.get('MDS_BRANCH', 'main')
     
     connectivity_check_ip = "100.96.32.75"  # Default IP to ping eg. 8.8.8.8 for the gcs IP
     connectivity_check_port = 5000        # Default port to ping eg. 80 for the gcs backend port

@@ -16,7 +16,7 @@ cat << "EOF"
 
 EOF
 
-echo "Project: mavsdk_drone_show (alireza787b/mavsdk_drone_show)"
+echo "Project: mavsdk_drone_show (AeroHive-community/mavsdk_drone_show)"
 echo "Version: 1.4 (November 2024)"
 echo
 echo "This script creates and configures multiple Docker container instances for the drone show simulation."

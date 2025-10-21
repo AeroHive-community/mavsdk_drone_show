@@ -38,8 +38,8 @@ REAL_BRANCH="${REAL_BRANCH:-main-candidate}"
 DEFAULT_BRANCH="${DEFAULT_BRANCH:-main-candidate}"
 
 # Repository URLs
-DEFAULT_SSH_GIT_URL="${DEFAULT_SSH_GIT_URL:-git@github.com:alireza787b/mavsdk_drone_show.git}"
-DEFAULT_HTTPS_GIT_URL="${DEFAULT_HTTPS_GIT_URL:-https://github.com/alireza787b/mavsdk_drone_show.git}"
+DEFAULT_SSH_GIT_URL="${DEFAULT_SSH_GIT_URL:-git@github.com:AeroHive-community/mavsdk_drone_show.git}"
+DEFAULT_HTTPS_GIT_URL="${DEFAULT_HTTPS_GIT_URL:-https://github.com/AeroHive-community/mavsdk_drone_show.git}"
 
 # Recovery strategy: "graceful" or "aggressive"
 RECOVERY_STRATEGY="${RECOVERY_STRATEGY:-graceful}"

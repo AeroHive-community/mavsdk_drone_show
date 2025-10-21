@@ -1,0 +1,243 @@
+# Query: alireza787b
+# ContextLines: 1
+
+67 results - 18 files
+
+README.md:
+  149  
+  150: All the detailed setup instructions—downloading the Docker image, creating SITL instances, running both Drone-Show and Smart Swarm modes—live available in [docs/sitl_demo_docker.md](https://github.com/alireza787b/mavsdk_drone_show/blob/main-candidate/docs/sitl_demo_docker.md):
+  151  
+
+  204  * **Email:** [p30planets@gmail.com](mailto:p30planets@gmail.com)
+  205: * **LinkedIn:** [Alireza Ghaderi](https://www.linkedin.com/in/alireza787b/)
+  206  
+
+  219  * **GitHub Repository (v3.0):**
+  220:   [https://github.com/alireza787b/mavsdk\_drone\_show](https://github.com/alireza787b/mavsdk_drone_show)
+  221  
+  222  * **SITL Demo with Docker Guide:**
+  223:    * [docs/sitl_demo_docker.md](https://github.com/alireza787b/mavsdk_drone_show/blob/main-candidate/docs/sitl_demo_docker.md)
+  224  
+
+smart_swarm_old.py:
+   5   Project: MavSDK Drone Show (smart_swarm)
+   6:  Repository: https://github.com/alireza787b/mavsdk_drone_show
+   7   
+
+  61     - Author: Alireza Ghaderi
+  62:    - GitHub: https://github.com/alireza787b
+  63:    - LinkedIn: https://www.linkedin.com/in/alireza787b
+  64     - Email: p30planets@gmail.com
+
+smart_swarm.py:
+   5   Project: MavSDK Drone Show (smart_swarm)
+   6:  Repository: https://github.com/alireza787b/mavsdk_drone_show
+   7   
+
+  61     - Author: Alireza Ghaderi
+  62:    - GitHub: https://github.com/alireza787b
+  63:    - LinkedIn: https://www.linkedin.com/in/alireza787b
+  64     - Email: p30planets@gmail.com
+
+app/dashboard/drone-dashboard/src/components/SidebarMenu.js:
+  162              <div className="social-expanded">
+  163:               <span className="copyright">© {new Date().getFullYear()} MDS by Alireza787b</span>
+  164                <div className="social-icons">
+  165:                 <a href="https://github.com/alireza787b/mavsdk_drone_show" target="_blank" rel="noopener noreferrer">
+  166                    <FaGithub />
+  167                  </a>
+  168:                 <a href="https://linkedin.com/in/alireza787b" target="_blank" rel="noopener noreferrer">
+  169                    <FaLinkedin />
+
+  175                <a
+  176:                 href="https://github.com/alireza787b/mavsdk_drone_show"
+  177                  target="_blank"
+
+docs/advanced_sitl.md:
+  289  - **Email:** [p30planets@gmail.com](mailto:p30planets@gmail.com)
+  290: - **LinkedIn:** [Alireza Ghaderi](https://www.linkedin.com/in/alireza787b/)
+  291  
+
+  299  - **Email:** [p30planets@gmail.com](mailto:p30planets@gmail.com)
+  300: - **LinkedIn:** [Alireza Ghaderi](https://www.linkedin.com/in/alireza787b/)
+  301  
+
+docs/sitl_demo_docker.md:
+   11  > - **Email:** [p30planets@gmail.com](mailto:p30planets@gmail.com)
+   12: > - **LinkedIn:** [Alireza Ghaderi](https://www.linkedin.com/in/alireza787b/)
+   13  
+
+   17  
+   18: MDS 3.5 is built on the [`mavsdk_drone_show`](https://github.com/alireza787b/mavsdk_drone_show) repository (released September 2025). It supports:
+   19  - **Offline Choreography Modes:** Preload "ShowMode" trajectory files (e.g., Spiral, Wave, Heart) that every drone executes in sync.
+
+   23  
+   24: For a step-by-step walkthrough beginning with version 0.1, see our YouTube tutorial playlist linked in the [GitHub repository](https://github.com/alireza787b/mavsdk_drone_show).
+   25  
+
+  174  cd ~
+  175: git clone https://github.com/alireza787b/mavsdk_drone_show
+  176  cd mavsdk_drone_show
+
+  428  
+  429: Please note that this project is still in its early development phases. Many aspects have not been designed with security or performance in mind. Your contributions to improve these aspects are welcome. Feel free to collaborate, post recommendations, or [report issues](https://github.com/alireza787b/mavsdk_drone_show/issues).
+  430  
+
+  465  - [My YouTube Playlist on Project History](https://www.youtube.com/playlist?list=PLVZvZdBQdm_7ViwRhUFrmLFpFkP3VSakk)
+  466: - [My GitHub Repository](https://github.com/alireza787b/mavsdk_drone_show)
+  467  - [Netbird Knowledge Base](https://docs.netbird.io/)
+
+  473  - Email: [p30planets@gmail.com](mailto:p30planets@gmail.com)
+  474: - [My LinkedIn Profile](https://www.linkedin.com/in/alireza787b/)
+  475  
+
+  479  
+  480: [mavsdk_drone_show](https://github.com/alireza787b/mavsdk_drone_show) - [Alireza Ghaderi](https://www.linkedin.com/in/alireza787b/)
+  481  
+
+docs/v2.0_doc_sitl_demo.md:
+    5  
+    6: Welcome to the MDS Simulation Server Setup Guide. This document aims to provide a comprehensive set of instructions to set up your own drone simulation server, based on the [`mavsdk_drone_show`](https://github.com/alireza787b/mavsdk_drone_show) GitHub repository. The repository was created in Nov 2024 and is based on version 2.0 of the original project.
+    7  
+    8: For a step-by-step walkthrough from version 0.1, you can follow our YouTube tutorial playlist. Links to these tutorials are available in the [GitHub repository](https://github.com/alireza787b/mavsdk_drone_show).
+    9  
+
+  134  	*	Forking the `mavsdk_drone_show` GitHub repo is required only if you are planning to customize the code and shows.
+  135: 	*	If you need help for your custom projects, contact me on [LinkedIn](https://www.linkedin.com/in/alireza787b/) or [Email](mailto:p30planets@gmail.com).
+  136  
+
+  163  cd ~
+  164: git clone https://github.com/alireza787b/mavsdk_drone_show
+  165  cd mavsdk_drone_show
+
+  413  
+  414: Please note that this project is still in its early development phases. Many aspects have not been designed with security or performance in mind. Your contributions to improve these aspects are welcome. Feel free to collaborate, post recommendations, or [report issues](https://github.com/alireza787b/mavsdk_drone_show/issues).
+  415  
+
+  432  - [My YouTube Playlist on Project History](https://www.youtube.com/playlist?list=PLVZvZdBQdm_7ViwRhUFrmLFpFkP3VSakk)
+  433: - [My GitHub Repository](https://github.com/alireza787b/mavsdk_drone_show)
+  434  - [Netbird Knowledge Base](https://docs.netbird.io/)
+
+  440  - Email: [p30planets@gmail.com](mailto:p30planets@gmail.com)
+  441: - [My LinkedIn Profile](https://www.linkedin.com/in/alireza787b/)
+  442  
+
+  446  
+  447: [mavsdk_drone_show](https://github.com/alireza787b/mavsdk_drone_show) - [Alireza Ghaderi](https://www.linkedin.com/in/alireza787b/)
+  448  
+
+docs/v07_doc.html:
+   54      </ol>
+   55:     <code class="code">git clone https://github.com/alireza787b/mavsdk_drone_show</code>
+   56      
+
+  159      <p>Alireza Ghaderi</p>
+  160:     <p>LinkedIn: <a href="https://www.linkedin.com/in/alireza787b">https://www.linkedin.com/in/alireza787b</a></p>
+  161:     <p>GitHub: <a href="https://github.com/alireza787b">https://github.com/alireza787b</a></p>
+  162      <p>YouTube: <a href="https://www.youtube.com/@alirezaghaderi">https://www.youtube.com/@alirezaghaderi</a></p>
+
+docs/v08_doc_server.html:
+  127  
+  128: <p>For a step-by-step walkthrough from version 0.1, you can follow our YouTube tutorial playlist. Links to these tutorials are available in the <a href="https://github.com/alireza787b/mavsdk_drone_show">GitHub repository</a>.</p>
+  129  
+
+  296  <h3>Clone Repository and Install Dependencies</h3>
+  297: <p>If you have forked the <code>mavsdk_drone_show</code> repository to make custom modifications or to test new features, replace the <code>alireza787b</code> in the clone command below with your own GitHub username of your forked repository.</p>
+  298  
+
+  301  cd ~
+  302: git clone https://github.com/alireza787b/mavsdk_drone_show
+  303  cd mavsdk_drone_show
+
+  539  	<li><a href="https://www.youtube.com/playlist?list=PLVZvZdBQdm_7ViwRhUFrmLFpFkP3VSakk" target="_blank">My YouTube Playlist on Project History</a></li>
+  540: 	<li><a href="https://github.com/alireza787b/mavsdk_drone_show" target="_blank">My GitHub Repository</a></li>
+  541  	<li><a href="https://docs.netbird.io/">Netbird Knowledge Base</a></li>
+
+  551  	<li>Email: <a href="mailto:p30planets@gmail.com">p30planets@gmail.com</a></li>
+  552: 	<li><a href="https://www.linkedin.com/in/alireza787b/" target="_blank">My LinkedIn Profile</a></li>
+  553  </ul>
+
+  561    <div class="footer-info">
+  562:     <a href="https://github.com/alireza787b/mavsdk_drone_show">mavsdk_drone_show</a> - 
+  563:     <a href="https://www.linkedin.com/in/alireza787b/">Alireza Ghaderi</a>
+  564    </div>
+
+multiple_sitl/create_dockers.sh:
+  18  
+  19: echo "Project: mavsdk_drone_show (AeroHive-community/mavsdk_drone_show)"
+  20  echo "Version: 1.4 (November 2024)"
+
+  61  #   - No action required - uses default drone-template:latest image
+  62: #   - Uses: git@github.com:alireza787b/mavsdk_drone_show.git@main-candidate
+  63  #   - Simply run: bash create_dockers.sh <number_of_drones>
+
+multiple_sitl/startup_sitl.sh:
+  31  #   - No action required - defaults work identically to previous versions
+  32: #   - Uses: https://github.com/alireza787b/mavsdk_drone_show.git@main-candidate
+  33  #   - Simply run: bash create_dockers.sh <number_of_drones>
+
+  62  DEFAULT_GIT_BRANCH="${MDS_BRANCH:-main}"
+  63: GITHUB_REPO_URL="${MDS_REPO_URL:-https://github.com/AeroHive-community/mavsdk_drone_show.git}"
+  64  
+
+src/params.py:
+  47      #   - No action required - defaults work identically to previous versions
+  48:     #   - Uses: git@github.com:alireza787b/mavsdk_drone_show.git@main-candidate
+  49      #
+
+  60      GIT_AUTO_PUSH = True
+  61:     GIT_REPO_URL = os.environ.get('MDS_REPO_URL', 'git@github.com:AeroHive-community/mavsdk_drone_show.git')
+  62      GIT_BRANCH = os.environ.get('MDS_BRANCH', 'main')
+
+tools/build_custom_image.sh:
+  44  
+  45: DEFAULT_REPO_URL="${MDS_REPO_URL:-git@github.com:AeroHive-community/mavsdk_drone_show.git}"
+  46  DEFAULT_BRANCH="${MDS_BRANCH:-main}"
+
+tools/mavlink-router-install.sh:
+  5  echo "Author: Alireza Ghaderi"
+  6: echo "GitHub: https://github.com/AeroHive-community/mavsdk_drone_show"
+  7  echo "Contact: p30planets@gmail.com"
+
+tools/raspberry_setup.sh:
+  24  #   - No action required - defaults work identically to previous versions
+  25: #   - Uses: git@github.com:alireza787b/mavsdk_drone_show.git@main-candidate
+  26  #   - Simply run: bash raspberry_setup.sh [options]
+
+  52  DEFAULT_MANAGEMENT_URL="https://nb1.joomtalk.ir"
+  53: DEFAULT_REPO_URL="${MDS_REPO_URL:-git@github.com:AeroHive-community/mavsdk_drone_show.git}"
+  54  DEFAULT_SSH_KEY_PATH="$HOME/.ssh/id_rsa_git_deploy"
+
+  76    -u, --management-url URL    Specify Netbird Management URL (default: https://nb1.joomtalk.ir)
+  77:       --repo-url URL          Specify Git repository URL (default: git@github.com:AeroHive-community/mavsdk_drone_show.git)
+  78        --ssh-key-path PATH     Specify SSH private key path for GitHub access (default: ~/.ssh/id_rsa_git_deploy)
+
+tools/update_repo_https.sh:
+  39  #   - No action required - defaults work identically to previous versions
+  40: #   - Uses: https://github.com/alireza787b/mavsdk_drone_show.git
+  41  #   - Simply run: bash update_repo_https.sh [branch]
+
+  62  REPO_DIR="${HOME}/mavsdk_drone_show"        # Modify this path as needed
+  63: GIT_URL="${MDS_REPO_URL:-https://github.com/AeroHive-community/mavsdk_drone_show.git}"  # HTTPS URL for the repo
+  64  LOG_FILE="${REPO_DIR}/update_repo.log"
+
+tools/update_repo_ssh.sh:
+  39  # Repository URLs
+  40: DEFAULT_SSH_GIT_URL="${DEFAULT_SSH_GIT_URL:-git@github.com:AeroHive-community/mavsdk_drone_show.git}"
+  41: DEFAULT_HTTPS_GIT_URL="${DEFAULT_HTTPS_GIT_URL:-https://github.com/AeroHive-community/mavsdk_drone_show.git}"
+  42  
+
+tools/rtk_streamer_gui/main.py:
+    4  
+    5: Repository: https://github.com/alireza787b/mavsdk_drone_show
+    6  Author: Alireza
+    7: LinkedIn: https://www.linkedin.com/in/alireza787b/
+    8  
+
+  276              self.master,
+  277:             text="© 2025 | GitHub: alireza787b/mavsdk_drone_show | @alireza787b",
+  278              font=footer_font,
+
+  283          footer.bind("<Button-1>", lambda e: webbrowser.open_new(
+  284:             "https://github.com/alireza787b/mavsdk_drone_show"
+  285          ))
