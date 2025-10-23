@@ -34,8 +34,8 @@ NETWORK_TIMEOUT="${NETWORK_TIMEOUT:-30}"
 
 # Branch configuration
 SITL_BRANCH="${SITL_BRANCH:-docker-sitl-2}"
-REAL_BRANCH="${REAL_BRANCH:-main-candidate}"
-DEFAULT_BRANCH="${DEFAULT_BRANCH:-main-candidate}"
+REAL_BRANCH="${REAL_BRANCH:-main}"
+DEFAULT_BRANCH="${DEFAULT_BRANCH:-main}"
 
 # Repository URLs
 DEFAULT_SSH_GIT_URL="${DEFAULT_SSH_GIT_URL:-git@github.com:AeroHive-community/mavsdk_drone_show.git}"
