@@ -1,48 +1,24 @@
 {
-  "basic_metrics": {
-    "drone_count": 1,
-    "duration_seconds": 149.7,
-    "duration_minutes": 2.5,
-    "max_altitude_m": 6.0,
-    "max_altitude_details": {
-      "value": 6.0,
-      "drone_id": "1",
-      "time_s": 6.1
-    },
-    "min_altitude_flight_m": 6.0,
-    "min_altitude_details": {
-      "value": 6.0,
-      "drone_id": "1",
-      "time_s": 59.9
-    },
-    "max_distance_from_launch_m": 17.61,
-    "max_distance_details": {
-      "value": 17.61,
-      "drone_id": "1",
-      "time_s": 77.2
-    },
-    "altitude_range_m": 0.0,
-    "per_drone_metrics": {
-      "1": {
-        "max_altitude_m": 6.0,
-        "max_altitude_time_s": 6.1,
-        "min_altitude_flight_m": 6.0,
-        "min_altitude_flight_time_s": 59.9,
-        "max_distance_from_launch_m": 17.61,
-        "max_distance_time_s": 77.2,
-        "duration_s": 149.7
-      }
-    }
-  },
+  "basic_metrics": {},
   "safety_metrics": {
-    "min_inter_drone_distance": "N/A (single drone)"
+    "min_inter_drone_distance_m": 4.9,
+    "min_distance_details": {
+      "time_s": 17.3,
+      "drone_1": "2",
+      "drone_2": "1",
+      "distance_m": 4.9
+    },
+    "collision_warnings_count": 0,
+    "collision_warnings": [],
+    "min_ground_clearance_m": -0.0,
+    "safety_status": "CAUTION"
   },
   "performance_metrics": {
-    "max_velocity_ms": 1.44,
-    "max_velocity_kmh": 5.18,
+    "max_velocity_ms": 1.5,
+    "max_velocity_kmh": 5.4,
     "max_velocity_details": {
-      "value": 1.44,
-      "drone_id": "1",
+      "value": 1.5,
+      "drone_id": "2",
       "time_s": 3.0
     },
     "max_acceleration_ms2": 1.07,
@@ -53,27 +29,38 @@
     },
     "performance_status": "EXCELLENT",
     "per_drone_velocity": {
+      "3": {
+        "max_velocity_ms": 1.44,
+        "avg_velocity_ms": 0.21,
+        "velocity_std_ms": 0.26
+      },
+      "2": {
+        "max_velocity_ms": 1.5,
+        "avg_velocity_ms": 0.21,
+        "velocity_std_ms": 0.24
+      },
       "1": {
         "max_velocity_ms": 1.44,
-        "avg_velocity_ms": 0.37,
-        "velocity_std_ms": 0.29
+        "avg_velocity_ms": 0.21,
+        "velocity_std_ms": 0.26
       }
     }
   },
   "formation_metrics": {
-    "formation_analysis": "N/A (insufficient drones for formation analysis)"
+    "formation_complexity": "COMPLEX",
+    "swarm_center_total_movement_m": 70.83
   },
   "quality_metrics": {
-    "trajectory_smoothness_score": 0.997,
+    "trajectory_smoothness_score": 0.999,
     "overall_quality_rating": "EXCELLENT",
-    "quality_score": 0.997,
+    "quality_score": 0.999,
     "recommendations": [
       "Trajectory analysis completed successfully"
     ]
   },
   "show_info": {
-    "filename": "h6x15y7nzahr.zip",
-    "uploaded_at": "2025-10-28T12:34:15.769197",
-    "processed_at": "2025-10-28T12:34:15.769213"
+    "filename": "marhale2.zip",
+    "uploaded_at": "2025-10-28T18:31:51.277095",
+    "processed_at": "2025-10-28T18:31:51.277111"
   }
 }
