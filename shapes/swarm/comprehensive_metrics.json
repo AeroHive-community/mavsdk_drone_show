@@ -1,8 +1,8 @@
 {
   "basic_metrics": {
     "drone_count": 1,
-    "duration_seconds": 145.7,
-    "duration_minutes": 2.43,
+    "duration_seconds": 149.7,
+    "duration_minutes": 2.5,
     "max_altitude_m": 6.0,
     "max_altitude_details": {
       "value": 6.0,
@@ -13,13 +13,13 @@
     "min_altitude_details": {
       "value": 6.0,
       "drone_id": "1",
-      "time_s": 58.3
+      "time_s": 59.9
     },
     "max_distance_from_launch_m": 17.61,
     "max_distance_details": {
       "value": 17.61,
       "drone_id": "1",
-      "time_s": 74.9
+      "time_s": 77.2
     },
     "altitude_range_m": 0.0,
     "per_drone_metrics": {
@@ -27,10 +27,10 @@
         "max_altitude_m": 6.0,
         "max_altitude_time_s": 6.1,
         "min_altitude_flight_m": 6.0,
-        "min_altitude_flight_time_s": 58.3,
+        "min_altitude_flight_time_s": 59.9,
         "max_distance_from_launch_m": 17.61,
-        "max_distance_time_s": 74.9,
-        "duration_s": 145.7
+        "max_distance_time_s": 77.2,
+        "duration_s": 149.7
       }
     }
   },
@@ -38,12 +38,12 @@
     "min_inter_drone_distance": "N/A (single drone)"
   },
   "performance_metrics": {
-    "max_velocity_ms": 1.48,
-    "max_velocity_kmh": 5.31,
+    "max_velocity_ms": 1.44,
+    "max_velocity_kmh": 5.18,
     "max_velocity_details": {
-      "value": 1.48,
+      "value": 1.44,
       "drone_id": "1",
-      "time_s": 118.4
+      "time_s": 3.0
     },
     "max_acceleration_ms2": 1.07,
     "max_acceleration_details": {
@@ -54,9 +54,9 @@
     "performance_status": "EXCELLENT",
     "per_drone_velocity": {
       "1": {
-        "max_velocity_ms": 1.48,
-        "avg_velocity_ms": 0.38,
-        "velocity_std_ms": 0.33
+        "max_velocity_ms": 1.44,
+        "avg_velocity_ms": 0.37,
+        "velocity_std_ms": 0.29
       }
     }
   },
@@ -72,8 +72,8 @@
     ]
   },
   "show_info": {
-    "filename": "h6x15y7nahaii.zip",
-    "uploaded_at": "2025-10-28T12:18:04.968401",
-    "processed_at": "2025-10-28T12:18:04.968419"
+    "filename": "h6x15y7nzahr.zip",
+    "uploaded_at": "2025-10-28T12:24:02.990020",
+    "processed_at": "2025-10-28T12:24:02.990037"
   }
 }
